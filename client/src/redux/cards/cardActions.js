@@ -18,7 +18,7 @@ export const getCardsByName = (data) => async (dispatch) => {
     try {
       const user = await axios({
         url: "http://localhost:4000/Card_Listing/card/title",
-        method: "GET",
+        method: "POST",
         data: data
       });
       return dispatch({ type: GET_CARDS_BY_NAME, payload: user });
@@ -31,7 +31,7 @@ export const getCardsByName = (data) => async (dispatch) => {
     try {
         const user = await axios({
           url: "http://localhost:4000/Card_Listing/card/type",
-          method: "GET",
+          method: "POST",
           data: data
         });
         return dispatch({ type: GET_CARDS_BY_TYPE, payload: user });

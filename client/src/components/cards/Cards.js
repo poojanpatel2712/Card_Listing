@@ -11,7 +11,7 @@ import Card from "./Card";
 
 function Cards({cards}) {
     
-  return <div className="w-full m-16">
+  return <div className="ml-56 m-16 flex flex-row flex-wrap px-10">
     {cards.map((card,index) => {
         return <Card key={index} {...card} />
     })}

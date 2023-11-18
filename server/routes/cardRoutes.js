@@ -15,8 +15,8 @@ router.get("/cardlist", GetCardList);
 router.post("/add", PostCard);
 router.get("/get/:userId", findCardByUserId);
 router.get("/blocked", getBlockedCards);
-router.get("/title", getCardsByName);
-router.get("/type", getCardsByType);
+router.post("/title", getCardsByName);
+router.post("/type", getCardsByType);
 router.get("/names", getCardsNames);
 
 export default router;

@@ -44,7 +44,10 @@ const getBlockedCards = async (req, res) => {
 const getCardsByName = async (req, res) => {
   try {
     const { title } = req.body;
-    const cards = await cardModel.find({ title });
+    console.log(req.body)
+    const cards = await cardModel.find({ title : {
+      $regex: title
+    } });
     return res.status(200).json({ cards });
   } catch (error) {
     console.log(error);

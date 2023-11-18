@@ -45,7 +45,7 @@ function Home({ id }) {
 
   return (
     <div>
-      <Navbar />
+      <Navbar setCards={setCards} />
       <Cards cards={cards} />
     </div>
   );
