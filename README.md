@@ -11,7 +11,7 @@ Clone the repository to your local machine.
 ##  Set Up the Server
 
 1. Navigate to the server folder:
-cd your-react-project/server
+cd Card_Listing/server
 
 2. Install the server dependencies:
 npm install
@@ -24,7 +24,7 @@ npm run dev
 ## Set Up the Client
 
 1. Navigate to the client folder:
-cd your-react-project/client
+cd Card_Listing/client
 
 2. Install the client dependencies:
 npm install
