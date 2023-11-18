@@ -35,5 +35,5 @@ npm start
 ## This will launch the client application in your default web browser at http://localhost:3000.
 
 ## Project Structure
-server/: Contains the server-side code.
-client/: Contains the client-side code.
+server: Contains the server-side code.
+client: Contains the client-side code.
