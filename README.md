@@ -6,9 +6,7 @@ This is a React project that includes both a server and a client application. Fo
 
 ### Clone the Repository
 
-Clone the repository to your local machine using the following command:
-
-git clone https://github.com/your-username/your-react-project.git
+Clone the repository to your local machine.
 
 ##  Set Up the Server
 
