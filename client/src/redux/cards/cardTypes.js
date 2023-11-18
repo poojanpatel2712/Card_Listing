@@ -1,0 +1,7 @@
+export const GET_CARD_LIST = "GET_CARD_LIST"
+export const POST_CARD = "POST_CARD"
+export const GET_CARD_BY_USERID = "GET_CARD_BY_USERID"
+export const GET_BLOCKED_CARDS = "GET_BLOCKED_CARDS"
+export const GET_CARDS_BY_NAME = "GET_CARDS_BY_NAME"
+export const GET_CARDS_BY_TYPE = "GET_CARDS_BY_TYPE"
+export const GET_CARDS_NAMES = "GET_CARDS_NAMES"
